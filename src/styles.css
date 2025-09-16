@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* smooth scrolling */
+html { scroll-behavior: smooth; }
+
+
+/* gradient text utility */
+.gradient-text {
+    background: linear-gradient(90deg, #22d3ee, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
