@@ -10,6 +10,7 @@ export default function Navbar(){
         </a>
         <div className="flex items-center gap-4 text-sm">
           <a href="#projects" className="hover:text-acid">Projects</a>
+          <a href="#experience" className="hover:text-acid">Experience</a> {/* Added this */}
           <a href="#skills" className="hover:text-acid">Skills</a>
           <a href="#contact" className="hover:text-acid">Contact</a>
           <div className="w-px h-5 bg-white/10" />
